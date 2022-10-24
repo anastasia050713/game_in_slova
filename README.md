@@ -5,7 +5,7 @@ API_TOKEN = '5717442815:AAEBziWv-5QoBQHKm2nMCn7z-SlMvytVNrM'
 bot = telebot.TeleBot(API_TOKEN)
 
 with open('russian_nouns.txt') as f:
-    all_words = [row.strip() for row in f]
+	all_words = [row.strip() for row in f]
 with open('animals.txt') as f:
     animals = [row.strip() for row in f]
 with open('Список городов России') as f:
